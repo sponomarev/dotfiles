@@ -1,0 +1,16 @@
+# Ignore ruby versions configs
+.rvmrc
+.ruby-gemset
+.ruby-version
+
+# Ignore IDEs and editors settings
+.idea/
+*.sublime-workspace
+*.sublime-project
+
+# Ignore OS X temporary
+*~
+.DS_Store
+
+# On save plugin
+.on-save.json

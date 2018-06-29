@@ -1,0 +1,4 @@
+AwesomePrint.defaults = {
+  multiline: true,
+  indent: 2
+}

@@ -1,0 +1,37 @@
+[user]
+  name = Sergey Ponomarev
+  email = me@sergey-ponomarev.ru
+  signingkey = 17FE1FD0C17AB760
+[alias]
+  co = checkout
+  ci = commit
+  st = status
+  br = branch
+  amend = commit --amend '-S'
+  fixup = commit --fixup
+  pushf = push --force-with-lease
+  hist = log --pretty=format:\"%h %ad | %s%d [%an]\" --graph --date=short
+  last = log --pretty=format:\"%h %ad | %s%d [%an]\" --date=short -n 10
+  graph = log --graph --color
+  fap = fetch --all --prune
+  deploy = push production master
+[branch]
+  autoSetupMerge = always
+  autoSetupRebase = always
+[color]
+  ui = true
+[commit]
+  gpgsign = true
+[core]
+  autocrlf = input
+  excludesfile = ~/.gitignore
+[diff]
+  compactionHeuristic = true
+  renames = copies
+[pull]
+  rebase = true
+[push]
+  default = simple
+[rebase]
+  autosquash = true
+

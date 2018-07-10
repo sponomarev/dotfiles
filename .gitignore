@@ -3,6 +3,9 @@
 .ruby-gemset
 .ruby-version
 
+# Ignore bundler's local bundle and config
+.bundle
+
 # Ignore IDEs and editors settings
 .idea/
 *.sublime-workspace

@@ -1,7 +1,7 @@
 [user]
   name = Sergey Ponomarev
   email = me@sergey-ponomarev.ru
-  signingkey = 17FE1FD0C17AB760
+  signingkey = E450C9308249D501!
 [alias]
   co = checkout
   ci = commit

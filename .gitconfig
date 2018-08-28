@@ -25,6 +25,7 @@
 [core]
   autocrlf = input
   excludesfile = ~/.gitignore
+  pager = less -FXRK
 [diff]
   compactionHeuristic = true
   renames = copies

@@ -6,7 +6,7 @@ ZSH_THEME="agnoster" # "robbyrussell"
 DEFAULT_USER="toad"
 
 # Which plugins would you like to load?
-plugins=(git ruby rbenv bundler rails docker docker-compose)
+plugins=(git ruby rbenv bundler rails golang docker docker-compose)
 
 ## User configuration
 
@@ -23,3 +23,7 @@ export LANG=en_US.UTF-8
 
 # GPG
 export GPG_TTY=$(tty)
+
+# Golang
+export GOPATH=$(go env GOPATH)
+export PATH=$PATH:$(go env GOPATH)/bin

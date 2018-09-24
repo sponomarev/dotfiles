@@ -10,8 +10,10 @@
   amend = commit --amend '-S'
   fixup = commit --fixup
   pushf = push --force-with-lease
+  staged = diff --staged
   hist = log --pretty=format:\"%h %ad | %s%d [%an]\" --graph --date=short
-  last = log --pretty=format:\"%h %ad | %s%d [%an]\" --date=short -n 10
+  last = show HEAD
+  recent = log --pretty=format:\"%h %ad | %s%d [%an]\" --date=short -n 10
   graph = log --graph --color
   fap = fetch --all --prune
   deploy = push production master

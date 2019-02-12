@@ -18,3 +18,8 @@
 
 # On save plugin
 .on-save.json
+
+# Helm override
+.override*.yml
+.override*.yaml
+

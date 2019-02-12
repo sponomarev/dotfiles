@@ -6,7 +6,7 @@ ZSH_THEME="agnoster" # "robbyrussell"
 DEFAULT_USER="toad"
 
 # Which plugins would you like to load?
-plugins=(git ruby rbenv bundler rails golang docker docker-compose)
+plugins=(git ruby rbenv bundler rails golang docker docker-compose helm kubectl)
 
 ## User configuration
 

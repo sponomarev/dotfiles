@@ -37,4 +37,5 @@
   default = simple
 [rebase]
   autosquash = true
+  autoStash = true
 

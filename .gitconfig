@@ -13,9 +13,9 @@
   fixup = commit --fixup
   pushf = push --force-with-lease
   staged = diff --staged
-  hist = log --pretty=format:\"%h %ad | %s%d [%an]\" --graph --date=short
+  hist = log --pretty=format:\"%h %ad | %s%C(green)%d%C(reset) [%an]\" --graph --date=short
   last = show HEAD
-  recent = log --pretty=format:\"%h %ad | %s%d [%an]\" --date=short -n 10
+  recent = log --pretty=format:\"%h %ad | %s%C(green)%d%C(reset) [%an]\" --date=short -n 10
   graph = log --graph --color
   fap = fetch --all --prune
   deploy = push production master

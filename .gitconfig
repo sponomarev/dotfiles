@@ -7,6 +7,8 @@
   ci = commit
   st = status
   br = branch
+  sw = switch
+  re = restore
   amend = commit --amend '-S'
   fixup = commit --fixup
   pushf = push --force-with-lease

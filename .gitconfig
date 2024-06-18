@@ -1,7 +1,7 @@
 [user]
   name = Sergey Ponomarev
   email = me@sergey-ponomarev.ru
-  signingkey = E450C9308249D501!
+  # signingkey = E450C9308249D501!
 [alias]
   co = checkout
   ci = commit
@@ -25,7 +25,7 @@
 [color]
   ui = true
 [commit]
-  gpgsign = true
+#  gpgsign = true
 [core]
   autocrlf = input
   excludesfile = ~/.gitignore
@@ -41,3 +41,5 @@
   autosquash = true
   autoStash = true
 
+[init]
+	defaultBranch = main

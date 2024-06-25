@@ -2,11 +2,12 @@
 export ZSH=/Users/toad/.oh-my-zsh
 
 # Set name of the theme to load.
-ZSH_THEME="agnoster" # "robbyrussell"
+ZSH_THEME="agnoster"
 DEFAULT_USER="toad"
 
 # Which plugins would you like to load?
-plugins=(git ruby rbenv bundler rails golang docker docker-compose helm kubectl)
+# plugins=(git ruby rbenv bundler rails golang docker docker-compose yarn npm helm kubectl)
+plugins=(git docker-compose yarn npm)
 
 ## User configuration
 
@@ -23,7 +24,3 @@ export LANG=en_US.UTF-8
 
 # GPG
 export GPG_TTY=$(tty)
-
-# Golang
-export GOPATH=$(go env GOPATH)
-export PATH=$PATH:$(go env GOPATH)/bin
